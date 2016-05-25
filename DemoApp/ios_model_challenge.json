@@ -1,0 +1,67 @@
+{
+  "status" : 200,
+  "response" : {
+    "locations" : [
+      {
+        "public_id" : "PP-0001",
+        "locality" : "New York",
+        "region" : "NY",
+        "postal_code" : "10010",
+        "country" : "US",
+        "services" : [
+          {
+            "platform" : "iOS",
+            "programmers" : [
+              {
+                "name" : "Louis",
+                "favorite_color" : "red",
+                "age" : 47,
+                "weight" : 206.5,
+                "phone" : "2125558989",
+                "is_artist" : true
+              },
+              {
+                "name" : "Kevin",
+                "favorite_color" : "green",
+                "age" : 18,
+                "weight" : 125.0,
+                "phone" : "2125551234",
+                "is_artist" : false
+              },
+              {
+                "name" : "Albert",
+                "favorite_color" : "blue",
+                "age" : 52,
+                "weight" : 185.7,
+                "phone" : "2035557890",
+                "is_artist" : false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "public_id" : "PP-0002",
+        "locality" : "Chicago",
+        "region" : "IL",
+        "postal_code" : "60290",
+        "country" : "US",
+        "services" : [
+          {
+            "platform" : "Android",
+            "programmers" : [
+              {
+                "name" : "Henry",
+                "favorite_color" : "aqua",
+                "age" : 30,
+                "weight" : 155.5,
+                "phone" : "3125551234",
+                "is_artist" : false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
