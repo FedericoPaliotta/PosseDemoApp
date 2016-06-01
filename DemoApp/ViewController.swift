@@ -63,6 +63,8 @@ class ViewController: UIViewController
         getNewLocationsButton = UIButton(type: .Custom)
         getNewLocationsButton.backgroundColor = UIColor.whiteColor()
         getNewLocationsButton.layer.cornerRadius = defaultRadius
+        getNewLocationsButton.layer.borderWidth = 0.3
+        getNewLocationsButton.layer.borderColor = defaultBgColor.CGColor
         getNewLocationsButton.setTitle("😎", forState: .Normal)
         
         getNewLocationsButton.addTarget(self,
