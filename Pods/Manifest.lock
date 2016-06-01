@@ -1,10 +1,15 @@
 PODS:
+  - DeviceKit (0.3.2)
   - Masonry (1.0.0)
 
 DEPENDENCIES:
+  - DeviceKit (~> 0.3)
   - Masonry
 
 SPEC CHECKSUMS:
+  DeviceKit: 79182140c0aa8daaf4f4b3920e0b079f5fa9db79
   Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 8790fab2d1d592d7420878837df2edc7a48c9c38
+
+COCOAPODS: 1.0.0
